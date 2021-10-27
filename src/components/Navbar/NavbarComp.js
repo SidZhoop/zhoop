@@ -11,7 +11,7 @@ function NavbarComp(){
         return(
             <nav className="navbar fixed-top">
                 <div className="nav-container">
-                    <NavLink exact to="/" className="nav-logo">
+                    <NavLink exact to="/zhoop" className="nav-logo">
                         <img className="zhoop" src={Zhoop}/>
                     </NavLink>
 
