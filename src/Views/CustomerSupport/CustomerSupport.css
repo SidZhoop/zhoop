@@ -1,0 +1,17 @@
+.support{
+    padding-top: 16.07rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.support-heading h3{
+    margin-top: 3rem;
+}
+
+.support-cards{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-top: 5rem;
+    padding: 3rem 9rem 0 9rem;
+
+}

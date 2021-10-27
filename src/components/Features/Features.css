@@ -1,0 +1,22 @@
+.features{
+    padding: 5rem 10rem;
+    text-align: center;
+    background-color: #77953B;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.row{
+    text-align: center;
+}
+
+.featuresCard{
+    margin: 0 2rem;
+    color: #fff;
+    object-fit: fill;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.featuresCard h1,h4{
+    padding-top: 8px;
+}

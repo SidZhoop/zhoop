@@ -1,0 +1,83 @@
+.footer{
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    color: #0000;
+    padding-top: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+.footerContainer{
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+
+}
+
+.whatsapp{
+    border-radius: 5px;
+    padding: 6px 12px;
+    border: 0;
+    background-color: #5FC75A;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contacts{
+    text-align: left;
+    color: #000;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-weight: lighter;
+}
+
+.mail, .mail a, .mail a:hover{
+    margin: 10px 0;
+    color: #000;
+    text-decoration: none;
+}
+
+.links, .links a, .links a:hover{
+    text-align: left;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 60px;
+}
+
+.media{
+    text-align: right;
+    padding-right: 100px;
+}
+
+.socialMedia{
+    padding: 10px 23px 0 0;
+}
+
+.facebook, .instagram, .twitter{
+    color: #000;
+    font-size: 1.5rem;
+    padding-left: 38px;
+}
+
+.copyright, .copyright p{
+    background-color: #77953B;
+    font-size: 0.8rem;
+    padding: 2px;
+    margin: 0;
+    color: #fff;
+    font-weight: lighter;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 479px) {
+    .footer{
+        width: 100%;
+    }
+}

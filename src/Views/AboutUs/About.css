@@ -1,0 +1,11 @@
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    background-color: #ffff;
+    padding-top: 2.04rem;
+}
+
+.about-content{
+    padding: 12rem 12rem;
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,30 @@
+.start{
+
+    background-color: cadetblue;
+}
+
+.covid{
+    padding: 12rem 0 12rem 12rem;
+}
+
+.para{
+    margin-top: 45px0;
+    margin-bottom: 35px;
+}
+
+/* .safe{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+} */
+
+.icon{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.points{
+    display: inline-block;
+    /* paddi */
+}
