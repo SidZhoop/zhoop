@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import FooterContent from "./FooterContent";
 import "./Footer.css";
-import cs from '../CommingSoon/cs';
 // import Zhoop from "../icons/zhoop.png";
 
 function Footer() {
@@ -54,8 +53,8 @@ function Footer() {
                     <div class="media">
                     <button className="download" type="button"><i class="fab fa-google-play"></i>Google Play</button>
                             <div className="socialMedia">
-                                <a href="#"><i class="fab fa-facebook-f facebook"></i></a>
-                                <a href="#"><i class="fab fa-instagram instagram"></i></a>
+                                <a href="https://www.facebook.com/106180358518415/posts/112574021212382/?sfnsn=wiwspwa"><i class="fab fa-facebook-f facebook"></i></a>
+                                <a href="https://www.instagram.com/p/CVaOpzlv9KM/?utm_medium=share_sheet"><i class="fab fa-instagram instagram"></i></a>
                                 <a href="#"><i class="fab fa-twitter twitter"></i></a>
                             </div>
                     </div>

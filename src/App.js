@@ -26,7 +26,7 @@ function App() {
         <Route path="/about-us">
           <AboutUs/>
         </Route>
-        <Route path="/" exact>
+        <Route path="/zhoop" exact>
           <Body/>
           <Features/>
         </Route>
