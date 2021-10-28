@@ -20,7 +20,7 @@ function NavbarComp(){
                             return(
                                 <li className="nav-item">
                                     <Switch>
-                                        <NavLink exact to={item.url} activeClassName="active" className={item.cName} onClick={handleClick}>
+                                        <NavLink exact to={item.url} activeClassName="active" className={item.cName}>
                                             <h5>{item.title}</h5>
                                         </NavLink>
                                     </Switch>

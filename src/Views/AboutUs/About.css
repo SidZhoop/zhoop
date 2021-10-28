@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, auto);
     background-color: #ffff;
-    padding-top: 2.04rem;
+    padding-top: 4.1rem;
 }
 
 .about-content{

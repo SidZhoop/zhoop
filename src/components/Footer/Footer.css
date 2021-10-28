@@ -12,9 +12,9 @@ h2{
 }
 
 .footerContainer{
-    margin: 1rem 0;
+    margin: 2rem 0;
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
 
 }
 
@@ -45,18 +45,18 @@ h2{
     text-align: left;
     color: #000;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: lighter;
-    padding-left: 60px;
+    padding-left: 200px;
 }
 
 .media{
     text-align: right;
-    padding-right: 100px;
+    padding-right: 160px;
 }
 
 .socialMedia{
-    padding: 10px 23px 0 0;
+    padding: 10px 10px 0 0;
 }
 
 .facebook, .instagram, .twitter{

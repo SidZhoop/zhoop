@@ -1,5 +1,3 @@
-import Features from "../Features/Features";
-
 export const MenuItems = [
     {
         title: "Features",

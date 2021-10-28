@@ -1,25 +1,38 @@
-export const FooterContent = [
+const FooterContent_1 = [
     {
         id: 1,
-        title: <a href="#">Career</a>
+        title: "Career",
+        url: "#"
     },
     {
         id: 2,
-        title: <a href="#">Privacy Policy</a>
+        title: "Customer Support",
+        url: "/customer-support"
     },
     {
         id: 3,
-        title: <a href="#">Terms & Conditions</a>
-    },
-    {
-        id: 4,
-        title: <a href="#">Cookie Policy</a>
-    },
-    {
-        id: 5,
-        title: <a href="#">fssai Licence</a>
+        title: "fssai Licence",
+        url: "#"
     },
     
 ]
 
-export default FooterContent;
+const FooterContent_2 = [
+    {
+        unique: 1,
+        title: "Terms & Conditions",
+        url: "#"
+    },
+    {
+        unique: 2,
+        title: "Privacy Policy",
+        url: "#"
+    },
+    {
+        unique: 3,
+        title: "Cookie Policy",
+        url: "#"
+    },
+]
+
+export {FooterContent_1, FooterContent_2};

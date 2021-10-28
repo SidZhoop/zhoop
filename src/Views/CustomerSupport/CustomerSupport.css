@@ -1,7 +1,16 @@
 .support{
-    padding-top: 16.07rem;
+    /* background-color: #77953B; */
+    color: #000;
+    padding-top: 6.6rem;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+}
+
+.support-boundary{
+    border: 4px solid #77953B;
+    border-radius: 35px;
+    padding: 5rem 0;
+    margin: 0 0.5rem;
 }
 
 .support-heading h3{
@@ -14,4 +23,12 @@
     margin-top: 5rem;
     padding: 3rem 9rem 0 9rem;
 
+}
+
+.support-text{
+    line-height: 1.3;
+}
+
+.support-via{
+    color: #77953B;
 }

@@ -8,7 +8,7 @@ import Business from './Views/Business/Business';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import AboutUs from './Views/AboutUs/About';
 import BarLoader from "react-spinners/BarLoader";
-import ScrollToTop from './components/CommingSoon/ScrollToTop';
+import ScrollToTop from './ScrollToTop';
 import CustomerSupport from './Views/CustomerSupport/CustomerSupport';
 
 function App() {
@@ -25,6 +25,9 @@ function App() {
         </Route>  */}
         <Route path="/about-us">
           <AboutUs/>
+        </Route>
+        <Route path="/customer-support">
+          <CustomerSupport/>
         </Route>
         <Route path="/zhoop" exact>
           <Body/>
