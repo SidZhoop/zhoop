@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/zhoop/static/css/main.45d5e4e6.chunk.css",
+    "main.js": "/zhoop/static/js/main.7a1f1cae.chunk.js",
+    "main.js.map": "/zhoop/static/js/main.7a1f1cae.chunk.js.map",
+    "runtime-main.js": "/zhoop/static/js/runtime-main.a46c11b9.js",
+    "runtime-main.js.map": "/zhoop/static/js/runtime-main.a46c11b9.js.map",
+    "static/css/2.c1256375.chunk.css": "/zhoop/static/css/2.c1256375.chunk.css",
+    "static/js/2.929848d6.chunk.js": "/zhoop/static/js/2.929848d6.chunk.js",
+    "static/js/2.929848d6.chunk.js.map": "/zhoop/static/js/2.929848d6.chunk.js.map",
+    "index.html": "/zhoop/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/zhoop/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.45d5e4e6.chunk.css.map": "/zhoop/static/css/main.45d5e4e6.chunk.css.map",
+    "static/js/2.929848d6.chunk.js.LICENSE.txt": "/zhoop/static/js/2.929848d6.chunk.js.LICENSE.txt",
+    "static/media/zhoop.ebe1c266.png": "/zhoop/static/media/zhoop.ebe1c266.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a46c11b9.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.929848d6.chunk.js",
+    "static/css/main.45d5e4e6.chunk.css",
+    "static/js/main.7a1f1cae.chunk.js"
+  ]
+}

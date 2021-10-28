@@ -29,6 +29,6 @@
     line-height: 1.3;
 }
 
-.support-via{
+.support-via, .support-via:hover{
     color: #77953B;
 }

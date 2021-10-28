@@ -10,6 +10,7 @@ import AboutUs from './Views/AboutUs/About';
 import BarLoader from "react-spinners/BarLoader";
 import ScrollToTop from './ScrollToTop';
 import CustomerSupport from './Views/CustomerSupport/CustomerSupport';
+import ComingSoon from './Views/ComingSoon/ComingSoon';
 
 function App() {
   return (
@@ -29,13 +30,13 @@ function App() {
         <Route path="/customer-support">
           <CustomerSupport/>
         </Route>
+        <Route path="/coming-soon">
+          <ComingSoon/>
+        </Route>
         <Route path="/zhoop" exact>
           <Body/>
           <Features/>
         </Route>
-        {/* <Route>
-          <CustomerSupport/>
-        </Route> */}
         <Footer/>
       </Router>
     </div>

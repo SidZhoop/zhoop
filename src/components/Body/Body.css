@@ -32,6 +32,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.download-button{
+    color: #fff;
+    text-decoration: none;
+}
+
+.download-button:hover{
+    color: #fff;
+}
+
 .fa-google-play{
     padding-right: 10px;
 }

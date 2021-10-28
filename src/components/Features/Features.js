@@ -5,7 +5,7 @@ import "./Features.css";
 class Features extends Component{
     render(){
         return(
-            <div className="features">
+            <div className="features" id="features-content">
                 {FeaturesContent.map((item, index) =>{
                     return(
                         <div class="col featuresCard">

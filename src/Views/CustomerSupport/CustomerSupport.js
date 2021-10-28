@@ -12,7 +12,7 @@ function CustomerSupport() {
                 <div className="support-cards">
                     <div className="support-items" style={{marginBottom: "15px", textAlign: "left"}}>
                         <h2 className="support-title"><i class="fab fa-whatsapp"> WhatsApp</i></h2>
-                        <h3 className="support-text"><a href="https://wa.me/919632600298?text=Hello%21!%20and%20I%20have%20few%20questions%20regarding%20online%20ordering.%20Are%20you%20free%20to%20chat%20now%3F"className="support-via">Click here</a> to chat with us on<br/>
+                        <h3 className="support-text"><a href="https://wa.me/919632600298?text=Hello%20I%20have%20few%20questions%20regarding%20online%20ordering.%20Are%20you%20free%20to%20chat%20now%3F"className="support-via">Click here</a> to chat with us on<br/>
                         WhatsApp now</h3>
                     </div>
                     <div className="support-items" style={{marginBottom: "15px", textAlign: "right"}}>
