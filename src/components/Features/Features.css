@@ -12,11 +12,53 @@
 
 .featuresCard{
     margin: 0 2rem;
-    color: #fff;
     object-fit: fill;
     font-family: 'Montserrat', sans-serif;
 }
 
-.featuresCard h1,h4{
-    padding-top: 8px;
+.featuresCard h1{
+    color: #fff;
+}
+
+@media screen and (width: 1024px) {
+    .features{
+        padding: 3rem 1rem;
+    }
+
+    .featuresCard h1{
+        padding-top: 8px;
+        font-size: 1.7rem;
+        color: #fff;
+    }
+    
+}
+
+@media screen and (max-width: 960px) {
+    .features{
+        padding: 3rem 1rem;
+    }
+
+    .featuresCard h1{
+        padding-top: 8px;
+        font-size: 1rem;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .features{
+        padding: 3rem 1rem;
+        display: block;
+    }
+
+    .featuresCard{
+        padding: 0 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .featuresCard h1{
+        padding-top: 8px;
+        font-size: 1.3rem;
+        color: #fff;
+    }
 }

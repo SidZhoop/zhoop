@@ -132,8 +132,7 @@
 }
 
 .nav-links h5:hover{
-    /* border-radius: 8%;
-    background-color: grey; */
+    border-bottom: 1rem;
     color: #000;
 }
 
@@ -165,6 +164,13 @@
     display: none;
 }
 
+@media screen and (width: 1024px) {
+    .nav-menu{
+        position: absolute;
+        right: 0;
+    }
+}
+
 @media screen and (max-width: 960px) {
     .nav-menu{
         display: flex;
@@ -178,7 +184,7 @@
     }
 
     .nav-menu.active{
-        background: #1f5156;
+        background: #fff;
         left: 0px;
         opacity: 1;
         transition: all 0.5s ease;
@@ -189,5 +195,11 @@
         display: block;
         margin: 0 20px 20px 20px;
         cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .zhoop{
+        width: 7rem;
     }
 }

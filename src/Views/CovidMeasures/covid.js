@@ -12,7 +12,7 @@ function Covid(){
                         <div className="para">
                             {para.map((item, index) => {
                                 return(
-                                    <div>
+                                    <div key={index}>
                                         <h5>{item.title}</h5>
                                     </div>
                                 )

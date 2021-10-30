@@ -55,6 +55,16 @@ h2{
     padding-right: 160px;
 }
 
+.download-footer{
+    border-radius: 5px;
+    padding: 6px 12px;
+    border: 0;
+    margin: 1% 3% 5% 0;
+    background-color: #000;
+    color: #ffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .socialMedia{
     padding: 10px 10px 0 0;
 }
@@ -62,7 +72,7 @@ h2{
 .facebook, .instagram, .twitter{
     color: #000;
     font-size: 1.5rem;
-    padding-left: 38px;
+    padding-left: 2.4rem;
 }
 
 .copyright, .copyright p{
@@ -77,7 +87,82 @@ h2{
 /* Mobile */
 
 @media screen and (max-width: 479px) {
-    .footer{
-        width: 100%;
+    .footerContainer{
+        display: block;
+        margin: 1rem;
+    }
+
+    .links{
+        text-align: left;
+        padding: 0 1rem;
+    }
+
+    .media{
+        padding: 0;
+        margin-top: 1.5rem;
+        text-align: left;
+    }
+
+    .download-footer{
+        margin-left: 1rem;
+    }
+
+    .socialMedia{
+        margin-left: 0rem;
+    }
+
+    .facebook{
+        padding-left: 1rem;
+    }
+
+    .instagram, .twitter{
+        padding-left: 2.4rem;
+    }
+}
+
+/* Tablet */
+
+@media screen and (max-width: 960px) {
+    .footerContainer{
+        margin: 1rem;
+    }
+
+    .links{
+        text-align: left;
+        padding: 0 1rem;
+    }
+
+    .media{
+        padding: 0;
+        margin-top: 1.5rem;
+        text-align: rights;
+    }
+
+    .download-footer{
+        margin-left: 1rem;
+    }
+
+    .socialMedia{
+        margin-left: 0rem;
+    }
+
+    .facebook{
+        padding-left: 1rem;
+    }
+
+    .instagram, .twitter{
+        padding-left: 2.4rem;
+    }
+}
+
+/* Laptop-width: 1024px */
+
+@media screen and (width: 1024px) {
+    .links{
+        padding-left: 1.5rem;
+    }
+
+    .media{
+        padding-right: 1.5rem;
     }
 }

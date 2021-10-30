@@ -12,15 +12,15 @@ function NavbarComp(){
             <nav className="navbar fixed-top">
                 <div className="nav-container">
                     <NavLink exact to="/zhoop" className="nav-logo">
-                        <img className="zhoop" src={Zhoop}/>
+                        <img className="zhoop" src={Zhoop} alt="" />
                     </NavLink>
 
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         {MenuItems.map((item, index) => {
                             return(
-                                <li className="nav-item">
+                                <li className="nav-item" key={index}>
                                     <Switch>
-                                        <NavLink exact to={item.url} activeClassName="active" className={item.cName}>
+                                        <NavLink exact to={item.url} activeClassName="active" className={item.cName} onClick={handleClick} >
                                             <h5>{item.title}</h5>
                                         </NavLink>
                                     </Switch>

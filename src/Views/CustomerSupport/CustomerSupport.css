@@ -25,10 +25,53 @@
 
 }
 
-.support-text{
+.support-items-whatsapp{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.support-items-email{
+    text-align: right;
+}
+
+.support-text-whatsapp{
+    line-height: 1.3;
+}
+
+.support-text-email{
     line-height: 1.3;
 }
 
 .support-via, .support-via:hover{
     color: #77953B;
+}
+
+@media screen and (width: 1024px) {
+    
+}
+
+@media screen and (max-width: 960px) {
+    
+}
+
+@media screen and (max-width: 479px) {
+    .support-cards{
+        display: block;
+        padding: 1rem;
+    }
+
+    .support-items-whatsapp, .support-items-email{
+        text-align: left;
+        margin-bottom: 1.5rem;
+    }
+
+    .support-text-whatsapp, .support-text-email{
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (width: 1024px) {
+    .support-heading h3{
+        margin: 3rem 1rem;
+    }
 }

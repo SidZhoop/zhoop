@@ -2,10 +2,47 @@
     display: grid;
     grid-template-columns: repeat(2, auto);
     background-color: #ffff;
-    padding-top: 4.1rem;
+    padding-top: 4.6rem;
 }
 
 .about-content{
     padding: 12rem 12rem;
     font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (width: 1024px) {
+    
+}
+
+@media screen and (max-width: 960px) {
+    .about{
+        padding: 0;
+    }
+
+    .about-content{
+        padding: 5.91rem 2rem 12rem;
+    }
+
+    .about-content h4{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .about{
+        padding: 9rem 0 2rem 0;
+    }
+
+    .about-content{
+        padding: 0 1rem;
+        text-align: left;
+    }
+
+    .about-content h1{
+        text-align: left;
+    }
+
+    .about-content h4{
+        margin-top: 1rem;
+    }
 }

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {FooterContent_1, FooterContent_2} from "./FooterContent";
 import { Switch, Link} from 'react-router-dom';
 import "./Footer.css";
@@ -27,18 +27,18 @@ function Footer() {
                     <div className="links">
                             {FooterContent_2.map((item, index)=> {
                                 return(
-                                    <Switch>
-                                        <Link exact to={item.url}>
-                                           <h5>{item.title}</h5> 
-                                        </Link>
-                                    </Switch>
-                                        
-                                    
+                                    <div key={index}>
+                                        <Switch>
+                                            <Link exact to={item.url}>
+                                            <h5>{item.title}</h5> 
+                                            </Link>
+                                        </Switch>
+                                    </div>
                                 )
                             })}
                     </div>
-                    <div class="media">
-                    <button className="download" type="button"><i class="fab fa-google-play"></i>
+                    <div className="media">
+                    <button className="download-footer" type="button"><i className="fab fa-google-play"></i>
                         <Switch>
                             <Link exact to="/coming-soon" className="download-button">
                                 Google Play
@@ -46,13 +46,13 @@ function Footer() {
                         </Switch>
                     </button>
                             <div className="socialMedia">
-                                <a href="https://www.facebook.com/106180358518415/"><i class="fab fa-facebook-f facebook"></i></a>
-                                <a href="https://www.instagram.com/p/CVaOpzlv9KM/?utm_medium=share_sheet"><i class="fab fa-instagram instagram"></i></a>
-                                <a href="#"><i class="fab fa-twitter twitter"></i></a>
+                                <a href="https://www.facebook.com/106180358518415/"><i className="fab fa-facebook-f facebook"></i></a>
+                                <a href="https://www.instagram.com/p/CVaOpzlv9KM/?utm_medium=share_sheet"><i className="fab fa-instagram instagram"></i></a>
+                                <a href="#"><i className="fab fa-twitter twitter"></i></a>
                             </div>
                     </div>
                 </div>
-                <div class="copyright">
+                <div className="copyright">
                     <p>© 2021, A Promptosol Technologies Private Limted Company</p>
                 </div> 
             </div>

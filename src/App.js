@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import Body from './components/Body/Body';
 import Features from './components/Features/Features';
 import Footer from './components/Footer/Footer';
@@ -7,7 +7,6 @@ import Business from './Views/Business/Business';
 // import CovidMeasures from './Views/CovidMeasures';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import AboutUs from './Views/AboutUs/About';
-import BarLoader from "react-spinners/BarLoader";
 import ScrollToTop from './ScrollToTop';
 import CustomerSupport from './Views/CustomerSupport/CustomerSupport';
 import ComingSoon from './Views/ComingSoon/ComingSoon';

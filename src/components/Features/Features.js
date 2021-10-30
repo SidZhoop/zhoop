@@ -8,7 +8,7 @@ class Features extends Component{
             <div className="features" id="features-content">
                 {FeaturesContent.map((item, index) =>{
                     return(
-                        <div class="col featuresCard">
+                        <div class="col featuresCard" key={index}>
                             {item.icon}
                             <h1>{item.title}</h1>
                             {/* <h4>{item.detail}</h4> */}
